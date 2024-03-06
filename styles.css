@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:blanchedalmond;
+    margin: o;
+    padding: o;
+    font-size: 20px;
+
+}
+
+header {
+    background-color: rgb(187, 18, 131), 0.411;
+    color: rgb(255, 0, 0)205;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+
+}
+
+h1 {
+    margin: 0%;
+}
+
+header h1 {
+    color: rgba(249, 110, 195, 0.724); /* Cambia "red" al color que desees */
+}
+
+main {
+    max-width: 800px;
+    margin: 0;
+    padding: 50px;
+}
+
+

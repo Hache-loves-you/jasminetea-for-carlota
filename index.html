@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prepare Jasmine tea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Prepare Jasmine tea with me Carlota Bullón!</h1>
+    </header>
+
+    <main>
+        <label for="tea-type">Select the type of Jasmine tea:</label>
+        <select id="tea-type">
+            <option value="dragon-pearls">Dragon Pearls</option>
+            <option value="organic-china">Organic China</option>
+            <option value="white">White</option>
+        </select>
+        <button id="prepare-btn">Prepare Tea</button>
+        <button id="next-step-btn" disabled>Next Step</button>
+        <div id="tea-images">
+            <img id="dragon-pearls-bg" src="tea images/dragon-pearls-bg.png" alt="Dragon Pearls Tea">
+            <img id="organic-china-bg" src="tea images/organic-china-bg.png" alt="Organic China Tea">
+            <img id="white-bg" src="tea images/white-bg.png" alt="White Tea">
+        </div>
+        <div id="instructions"></div>
+        <div id="surprise-message"></div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
